@@ -8,6 +8,7 @@ else
  katz_deli.each_with_index do |person, index|
    current_line << " #{index}. #{person}"
 end
+return current_line
 end 
 end
 
