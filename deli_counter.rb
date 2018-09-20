@@ -2,7 +2,7 @@ katz_deli = []
 
 def line(katz_deli)
   if katz_deli.length > 1 
-    puts "The line is currently #{katz_deli[-1].insert(0, "#{katz_deli.length}.")"
+    puts "The line is currently" katz_deli[-1].insert(0, "#{katz_deli.length}.")
     katz_deli.join(" ")
    elsif katz_deli.length == 0
   puts "The line is currently empty."
