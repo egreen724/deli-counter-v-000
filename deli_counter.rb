@@ -9,7 +9,7 @@ end
  
  if katz_deli.length > 1 
   katz_deli.each do |person|
-    puts "The line is currently 1. #{katz_deli[0]}"
+    puts "The line is currently #{katz_deli.length}. #{name}"
   
 end
 
