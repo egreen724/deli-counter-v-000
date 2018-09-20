@@ -2,11 +2,8 @@ katz_deli = []
 
 def line(katz_deli)
   if katz_deli.length > 1 
-    katz_deli[-1].insert(0, "#{katz_deli.length}.")
+    puts "The line is currently #{katz_deli[-1].insert(0, "#{katz_deli.length}.")
     katz_deli.join
-  #katz_deli.each_with_index do |person, index| 
-   # puts "The line is currently #{index + 1}. #{person}"
-  
    elsif katz_deli.length == 0
   puts "The line is currently empty."
   else katz_deli.length == 1 
