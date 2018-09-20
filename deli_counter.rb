@@ -1,6 +1,6 @@
 katz_deli = []
 
-def line(katz_deli)
+def line([index])
   if katz_deli.length > 1 
   katz_deli.each do |person| 
     "The line is currently #{katz_deli[index] + 1}. #{person}"
