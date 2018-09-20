@@ -11,7 +11,7 @@ end
 end
 
 def take_a_number(katz_deli, name)
-  array.push
+  katz_deli.push
   puts "#{name}, you are #{katz_deli.length}"
 end
 
