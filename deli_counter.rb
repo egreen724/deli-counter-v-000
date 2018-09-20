@@ -2,7 +2,7 @@ katz_deli = []
 
 def line(katz_deli)
   if katz_deli.length > 1 
-    katz_deli[-1].insert(0, "#{katz_deli.length ")
+    katz_deli[-1].insert(0, "#{katz_deli.length")
   #katz_deli.each_with_index do |person, index| 
    # puts "The line is currently #{index + 1}. #{person}"
   end 
