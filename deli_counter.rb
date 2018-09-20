@@ -4,7 +4,7 @@ def line(katz_deli)
   if katz_deli.length > 1 
   katz_deli.each do |person| 
     puts "The line is currently #{katz_deli.length}. #{person}" 
-   elseif katz_deli.length == 0
+   elsif katz_deli.length == 0
   puts "The line is currently empty."
   else katz_deli.length == 1 
   puts "The line is currently 1. #{katz_deli[0]}"
