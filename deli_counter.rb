@@ -6,7 +6,7 @@ def line(katz_deli)
   elsif katz_deli.length == 1 
   puts "The line is currently 1. #{katz_deli[0]}"
   else 
-  puts "The line is currently #{katz_deli.join("#{index + 1})} "
+  puts "The line is currently #{katz_deli.join(index + 1)} "
 end 
 end
 
