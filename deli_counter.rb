@@ -6,7 +6,7 @@ def line(katz_deli)
     puts "The line is currently #{katz_deli.length}. #{person}" 
    elseif katz_deli.length == 0
   puts "The line is currently empty."
-  else  katz_deli.length == 1 
+  else katz_deli.length == 1 
   puts "The line is currently 1. #{katz_deli[0]}"
 end 
 end 
